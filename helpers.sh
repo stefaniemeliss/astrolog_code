@@ -1,0 +1,33 @@
+out_file="info.txt"
+
+echo "------------------------------" > "$out_file"
+echo "Astrolog version 7.70 defaults" >> "$out_file"
+echo "------------------------------" >> "$out_file"
+
+echo "" >> "$out_file"
+echo "./astrolog -HC" >> "$out_file"
+echo "" >> "$out_file"
+./astrolog -HC >> "$out_file"
+echo "" >> "$out_file"
+echo "" >> "$out_file"
+
+echo "" >> "$out_file"
+echo "./astrolog -HO" >> "$out_file"
+echo "" >> "$out_file"
+./astrolog -HO >> "$out_file"
+echo "" >> "$out_file"
+echo "" >> "$out_file"
+
+echo "" >> "$out_file"
+echo "./astrolog -HA" >> "$out_file"
+echo "" >> "$out_file"
+./astrolog -HA >> "$out_file"
+echo "" >> "$out_file"
+echo "" >> "$out_file"
+
+echo "" >> "$out_file"
+echo "./astrolog -HS" >> "$out_file"
+echo "" >> "$out_file"
+./astrolog -HS >> "$out_file"
+echo "" >> "$out_file"
+echo "" >> "$out_file"
