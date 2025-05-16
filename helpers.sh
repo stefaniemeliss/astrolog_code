@@ -5,13 +5,6 @@ echo "Astrolog version 7.70 defaults" >> "$out_file"
 echo "------------------------------" >> "$out_file"
 
 echo "" >> "$out_file"
-echo "./astrolog -HC" >> "$out_file"
-echo "" >> "$out_file"
-./astrolog -HC >> "$out_file"
-echo "" >> "$out_file"
-echo "" >> "$out_file"
-
-echo "" >> "$out_file"
 echo "./astrolog -HO" >> "$out_file"
 echo "" >> "$out_file"
 ./astrolog -HO >> "$out_file"
